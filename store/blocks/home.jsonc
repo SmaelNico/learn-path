@@ -1,15 +1,14 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
-  }
+	//este bloque determina todos los bloques hijos que van a aparecer en HOME
+	"store.home": {
+		"blocks": ["rich-text"]
+	},
+	"rich-text": {
+		"props": {
+			"text": "VTEX Store Framework",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-1"
+		}
+	}
 }
