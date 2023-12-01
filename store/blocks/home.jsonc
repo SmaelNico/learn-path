@@ -1,14 +1,44 @@
 {
 	//este bloque determina todos los bloques hijos que van a aparecer en HOME
 	"store.home": {
-		"blocks": ["rich-text"]
+		// "blocks": ["rich-text"]
+		"blocks": ["info-card#button-right", "info-card#button-left"]
 	},
 	"rich-text": {
 		"props": {
-			"text": "VTEX Store Framework",
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"font": "t-heading-1"
+			// ? Normal
+			// "text": "Hello World!"
+			// ? italic
+			// "text": "*Hello World!*"
+			// ? Negrita
+			"text": "**Hello World!**",
+			"textPosition": "RIGHT"
+		}
+	},
+	// ? # BLOOCK INSTANCING
+	"info-card#button-right": {
+		"props": {
+			"callToActionMode": "button",
+			"callToActionText": "Explore",
+			"callToActionUrl": "/sale/d",
+			"headline": "Vintage Pink",
+			"imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+			"isFullModeStyle": false,
+			"subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+			"textAlignment": "center",
+			"textPosition": "right"
+		}
+	},
+	"info-card#button-left": {
+		"props": {
+			"callToActionMode": "link",
+			"callToActionText": "Go to collection",
+			"headline": "Shining chrome",
+			"imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+			"isFullModeStyle": false,
+			"subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+			"textAlignment": "center",
+			"textPosition": "left"
 		}
 	}
 }
