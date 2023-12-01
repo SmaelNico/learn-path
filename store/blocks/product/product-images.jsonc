@@ -1,0 +1,15 @@
+{
+	"product-images": {
+		"props": {
+			"displayThumbnailsArrows": false,
+			"aspectRatio": "auto",
+			"contentOrder": "images-first",
+			"contentType": "all",
+			"displayMode": "carousel",
+			// "displayMode": "first-image",
+			"showPaginationDots": false,
+			"thumbnailVisibility": true,
+			"zoomMode": "in-place-click"
+		}
+	}
+}

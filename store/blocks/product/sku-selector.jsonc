@@ -1,0 +1,10 @@
+{
+	"sku-selector": {
+		"props": {
+			"hideImpossibleCombinations": true,
+			// "disableUnavailableSelectOptions": false
+			"disableUnavailableSelectOptions": true,
+			"displayMode": "slider"
+		}
+	}
+}

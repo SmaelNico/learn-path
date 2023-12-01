@@ -1,0 +1,11 @@
+{
+	"product-quantity": {
+		"props": {
+			"warningQuantityThreshold": 9999999,
+			"showUnit": true,
+			"size": "large",
+			"selectorType": "stepper"
+			// "selectorType": "dropdown"
+		}
+	}
+}

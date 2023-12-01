@@ -1,0 +1,10 @@
+{
+	"buy-button": {
+		"props": {
+			"isOneClickBuy": false,
+			"showTooltipOnSkuNotSelected": true,
+			"large": false,
+			"shouldOpenMinicart": true
+		}
+	}
+}

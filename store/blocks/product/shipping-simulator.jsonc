@@ -1,0 +1,8 @@
+{
+	"shipping-simulator": {
+		"props": {
+			"skuID": "342",
+			"pricingMode": "grouped"
+		}
+	}
+}

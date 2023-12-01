@@ -1,0 +1,13 @@
+{
+	"product-name": {
+		"props": {
+			// ? muestra el nombre
+			"displayMode": "plainText",
+			//  ? Muestra el nombre como link
+			// "displayMode": "linkToProductPage",
+			"showSku": true,
+			"showBrandName": true,
+			"showProductReference": true
+		}
+	}
+}

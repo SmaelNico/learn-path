@@ -1,0 +1,9 @@
+{
+	"breadcrumb": {
+		"props": {
+			"showOnMobile": true,
+			"homeIconSize": 22,
+			"caretIconSize": 8
+		}
+	}
+}

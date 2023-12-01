@@ -1,0 +1,10 @@
+{
+	"product-price": {
+		"props": {
+			"showSavings": true,
+			"showListPrice": true,
+			"showInstallments": true,
+			"showLabels": true
+		}
+	}
+}
