@@ -2,13 +2,15 @@
 	//este bloque determina todos los bloques hijos que van a aparecer en HOME
 	"store.home": {
 		"blocks": [
+			"modal-trigger#first",
 			"info-card#button-left",
 			"info-card#button-right",
+			"list-context.product-list#shelf-home",
 			"flex-layout.row",
 			"slider-layout#home",
 			"responsive-layout.desktop",
 			"responsive-layout.mobile",
-			"tab-layout"
+			"tab-layout#home"
 		]
 	}
 }
