@@ -1,0 +1,46 @@
+{
+	"condition-layout.product#banner": {
+		"children": ["condition.product#retro-mixer"]
+	},
+	//DEFINE LA CONDICION DEL PRODUCTO
+	//SUBJECT : ES EL TIPO DE DATO QUE SE VA A USAR PARA HACER LA COMPARACION
+	// VERB : ES LA FORMA   is  is-not  -not-contain
+	// OBJECT : EL VALOR CON EL Q SE COMPARA . SI SE USAR productId  1955 por ej
+	"condition.product#retro-mixer": {
+		"props": {
+			"conditions": [
+				{
+					"subject": "productId",
+					"verb": "is",
+					"object": "1955"
+				}
+			]
+		},
+		"children": ["image#retro-mixer-banner"]
+	},
+	"image#retro-mixer-banner": {
+		"props": {
+			"src": "https://appliancetheme.vtexassets.com/assets/app/src/retroimage___92a8271aac7c51d2059193bdbe019016.jpg",
+			"width": "100%",
+			"height": "200px",
+			"blockClass": "cover"
+		}
+	},
+
+	"condition-layout.product#doubleSlider": {
+		"children": ["condition.product#retro-mixer2"]
+	},
+
+	"condition.product#retro-mixer2": {
+		"props": {
+			"conditions": [
+				{
+					"subject": "productId",
+					"verb": "is",
+					"object": "1955"
+				}
+			]
+		},
+		"children": ["tab-layout#product-slider"]
+	}
+}

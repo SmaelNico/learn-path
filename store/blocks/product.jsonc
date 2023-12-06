@@ -1,6 +1,11 @@
 {
 	"store.product": {
-		"children": ["breadcrumb", "flex-layout.row#main"]
+		"children": [
+			"condition-layout.product#banner",
+			"breadcrumb",
+			"flex-layout.row#main",
+			"condition-layout.product#doubleSlider"
+		]
 	},
 	"flex-layout.row#main": {
 		"children": ["flex-layout.col#left", "flex-layout.col#right"]
