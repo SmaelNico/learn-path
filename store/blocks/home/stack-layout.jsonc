@@ -1,0 +1,25 @@
+{
+	//LE AGREGA UN ZINDEX MAYOR A CADA HIJO, SIENDO EL PRIMERO Z-INDEX =1 E INCREMENTANDO EN 1
+	"stack-layout#cta": {
+		"children": ["image#cta", "link#cta"]
+	},
+	"image#cta": {
+		"props": {
+			"blockClass": "cover",
+			"width": "100%",
+			"height": 400,
+			"src": "https://t4.ftcdn.net/jpg/04/08/53/87/360_F_408538711_ZJijVMV2KVMd7A4lTTROvlGeoFH0chL1.jpg"
+		}
+	},
+	"link#cta": {
+		"props": {
+			"displayMode": "button",
+			"buttonProps": {
+				"variant": "primary",
+				"size": "large"
+			},
+			"href": "/buzos",
+			"label": "Check these awesome discounts"
+		}
+	}
+}
