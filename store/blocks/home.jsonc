@@ -2,6 +2,7 @@
 	//este bloque determina todos los bloques hijos que van a aparecer en HOME
 	"store.home": {
 		"blocks": [
+			"stack-layout#cta",
 			"modal-trigger#first",
 			"info-card#button-left",
 			"info-card#button-right",
