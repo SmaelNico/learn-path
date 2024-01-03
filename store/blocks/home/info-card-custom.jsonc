@@ -1,0 +1,45 @@
+{
+	"flex-layout.row#customCss": {
+		"children": ["flex-layout.col#custom"]
+	},
+	"flex-layout.col#custom": {
+		"children": [
+			"info-card#clearance",
+			"info-card#vintage",
+			"rich-text#custom"
+		]
+	},
+	"info-card#clearance": {
+		"props": {
+			"id": "info-card-clearance",
+			"isFullModeStyle": false,
+			"textPosition": "left",
+			"imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+			"headline": "Clearance Sale",
+			"callToActionText": "DISCOVER",
+			"callToActionUrl": "/sale/d",
+			"textAlignment": "center"
+		}
+	},
+	"info-card#vintage": {
+		"props": {
+			"id": "info-card-vintage",
+			"isFullModeStyle": false,
+			"textPosition": "right",
+			"imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+			"headline": "Vintage",
+			"callToActionText": "DISCOVER",
+			"callToActionUrl": "/sale/d",
+			"textAlignment": "center",
+			"blockClass": "vintage"
+		}
+	},
+	"rich-text#custom": {
+		"props": {
+			"text": "VTEX Store Framework",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-1"
+		}
+	}
+}
